@@ -30,4 +30,6 @@
     <string name="irregular_words_forms" translatable="false">форма1      форма2      форма3</string>
     <string name="program_version_text">Версія програми: 1.0.0</string>
     <string name="program_developer_text">Розробник програми: Dima Labs</string>
+    <string name="add_word_btn">Додати слово</string>
+    <string name="learn_my_words_btn">Вчити мої слова</string>
 </resources>
