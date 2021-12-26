@@ -8,7 +8,7 @@
     tools:context=".feature.irregularwords.IrregularWordsActivity">
 
     <TextView
-        android:id="@+id/ptEnglishWord"
+        android:id="@+id/ukr_word"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="88dp"
@@ -19,7 +19,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btnNativeWord"
+        android:id="@+id/ukr_word"
         style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

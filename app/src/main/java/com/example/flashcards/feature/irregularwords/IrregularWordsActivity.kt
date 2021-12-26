@@ -24,7 +24,7 @@ class IrregularWordsActivity : AppCompatActivity(), IrregularWordsView {
     var next = 0
 
     fun see_en_forms(view: android.view.View) {
-        var en_Word = findViewById<TextView>(R.id.ptEnglishWord)
+        var en_Word = findViewById<TextView>(R.id.ukr_word)
         en_Word.text = enWord[next]
 
     }
@@ -32,8 +32,8 @@ class IrregularWordsActivity : AppCompatActivity(), IrregularWordsView {
     open  val enWord = ArrayList<String>()
     fun next(view: View) {
         next ++
-        var en_word = findViewById<TextView>(R.id.ptEnglishWord)
-        var ukr_word = findViewById<TextView>(R.id.ptEnglishWord)
+        var en_word = findViewById<TextView>(R.id.ukr_word)
+        var ukr_word = findViewById<TextView>(R.id.ukr_word)
         ukr_word.setVisibility(View.VISIBLE)
         ukr_word.text =""
         en_word.text = ""
