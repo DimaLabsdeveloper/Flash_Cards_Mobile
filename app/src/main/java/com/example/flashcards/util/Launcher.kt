@@ -9,9 +9,9 @@ import com.example.flashcards.feature.aboutme.AboutMeActivity
 import com.example.flashcards.feature.addword.AddWordActivity
 import com.example.flashcards.feature.learnwords.LearnWordsActivity
 import com.example.flashcards.feature.newwords.NewWords
-import com.example.flashcards.notreworked.Irregular_words_ukr
-import com.example.flashcards.notreworked.My_words_ukr
-import com.example.flashcards.notreworked.Settings_ukr
+import com.example.flashcards.feature.irregularwords.IrregularWordsActivity
+import com.example.flashcards.trash.My_words_ukr
+import com.example.flashcards.trash.Settings_ukr
 
 object Launcher {
     fun startMainActivity(activity: Activity) {

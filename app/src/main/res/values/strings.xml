@@ -33,4 +33,5 @@
     <string name="add_word_btn">Додати слово</string>
     <string name="learn_my_words_btn">Вчити мої слова</string>
     <string name="new_words_title">Нові Слова</string>
+    <string name="irregular_words_forms" translatable="false">форма1      форма2      форма3</string>
 </resources>
